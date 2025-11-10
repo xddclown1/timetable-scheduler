@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Ensures professors are not double-booked and respects their unavailable time slots.
+ * Ensures rooms are not double-booked and respects room unavailability.
  */
-public class ProfessorAvailabilityConstraint implements Constraint {
+public class RoomAvailabilityConstraint implements Constraint {
 
     @Override
     public ValidationResult validate(
@@ -20,19 +20,19 @@ public class ProfessorAvailabilityConstraint implements Constraint {
     ) {
         List<String> violations = new ArrayList<>();
 
-        // Check if professor is unavailable at this time
-        if (!professor.isAvailableAt(timeSlot)) {
+        // Check if room is unavailable at this time
+        if (!room.isAvailableAt(timeSlot)) {
             violations.add(String.format(
-                "Professor %s (%s) is unavailable at %s",
-                professor.getId(), professor.getName(), timeSlot
+                "Room %s (%s) is unavailable at %s",
+                room.getId(), room.getName(), timeSlot
             ));
         }
 
-        // Check if professor is already teaching another course at this time
-        if (!schedule.isProfessorAvailableAt(professor.getId(), timeSlot)) {
+        // Check if room is already occupied at this time
+        if (!schedule.isRoomAvailableAt(room.getId(), timeSlot)) {
             violations.add(String.format(
-                "Professor %s (%s) is already scheduled at %s",
-                professor.getId(), professor.getName(), timeSlot
+                "Room %s (%s) is already occupied at %s",
+                room.getId(), room.getName(), timeSlot
             ));
         }
 
@@ -44,7 +44,7 @@ public class ProfessorAvailabilityConstraint implements Constraint {
 
     @Override
     public String getName() {
-        return "Professor Availability";
+        return "Room Availability";
     }
 
     @Override

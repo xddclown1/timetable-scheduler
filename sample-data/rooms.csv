@@ -1,0 +1,11 @@
+﻿roomId,name,capacity,features,unavailableSlots
+R001,Lecture Hall A,120,projector;whiteboard;speakers,
+R002,Lecture Hall B,100,projector;whiteboard,
+R003,Lecture Hall C,80,projector;whiteboard;speakers,
+R004,Computer Lab 1,50,projector;computers;whiteboard,
+R005,Computer Lab 2,50,projector;computers;whiteboard,
+R006,Seminar Room A,40,projector;whiteboard,
+R007,Seminar Room B,35,projector;whiteboard,
+R008,Conference Room,30,projector;whiteboard;video-conference,1;2;3
+R009,Research Lab,25,projector;lab-equipment,
+R010,Tutorial Room,20,whiteboard,

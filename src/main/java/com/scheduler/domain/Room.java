@@ -1,4 +1,4 @@
-package com.scheduler.domain;
+package main.java.com.scheduler.domain;
 
 import java.util.Collections;
 import java.util.HashSet;

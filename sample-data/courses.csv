@@ -1,0 +1,21 @@
+﻿courseId,name,duration,expectedEnrollment,professorId,requiredFeatures,preferredSlots
+CS101,Introduction to Programming,2,85,P001,projector;whiteboard,2;3
+CS102,Data Structures,2,75,P002,projector;whiteboard,7;8
+CS103,Algorithms,2,65,P003,projector;whiteboard,
+CS104,Database Systems,2,70,P004,projector;whiteboard,13;14
+CS105,Operating Systems,2,60,P005,projector;whiteboard,
+CS106,Computer Networks,2,55,P006,projector;whiteboard,19;20
+CS201,Software Engineering,2,80,P001,projector;whiteboard,
+CS202,Web Development,1,45,P007,projector;computers,10
+CS203,Mobile App Development,1,40,P008,projector;computers,
+CS204,Machine Learning,2,50,P002,projector;whiteboard,
+CS205,Artificial Intelligence,2,55,P003,projector;whiteboard,
+CS206,Computer Graphics,1,35,P004,projector;computers,
+CS207,Cybersecurity,2,60,P005,projector;whiteboard,
+CS208,Cloud Computing,1,45,P006,projector;whiteboard,
+CS301,Advanced Algorithms,2,30,P007,projector;whiteboard,
+CS302,Distributed Systems,2,35,P008,projector;whiteboard,
+CS303,Compiler Design,2,25,P001,projector;whiteboard,
+CS304,Computer Vision,1,30,P002,projector;computers,
+CS305,Natural Language Processing,1,28,P003,projector;whiteboard,
+CS306,Quantum Computing,1,20,P004,projector;whiteboard,

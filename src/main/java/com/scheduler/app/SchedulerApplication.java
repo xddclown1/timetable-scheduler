@@ -1,4 +1,4 @@
-package main.java.com.scheduler.app;
+package com.scheduler.app;
 
 import com.scheduler.config.SchedulerConfiguration;
 import com.scheduler.constraints.ConstraintValidator;

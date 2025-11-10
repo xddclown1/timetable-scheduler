@@ -1,4 +1,4 @@
-package test.java.com.scheduler.scheduler;
+package com.scheduler.scheduler;
 
 import com.scheduler.domain.*;
 import org.junit.jupiter.api.BeforeEach;

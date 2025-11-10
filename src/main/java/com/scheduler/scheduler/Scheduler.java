@@ -1,4 +1,4 @@
-package main.java.com.scheduler.scheduler;
+package com.scheduler.scheduler;
 
 import com.scheduler.domain.Course;
 import com.scheduler.domain.Professor;

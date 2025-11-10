@@ -1,4 +1,4 @@
-package main.java.com.scheduler.io;
+package com.scheduler.io;
 
 /**
  * Exception thrown when parsing input files fails.

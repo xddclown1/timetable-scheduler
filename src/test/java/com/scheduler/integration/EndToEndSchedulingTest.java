@@ -1,4 +1,4 @@
-package test.java.com.scheduler.integration;
+package com.scheduler.integration;
 
 import com.scheduler.domain.*;
 import com.scheduler.io.*;

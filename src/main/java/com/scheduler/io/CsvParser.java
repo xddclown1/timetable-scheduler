@@ -1,4 +1,4 @@
-package main.java.com.scheduler.io;
+package com.scheduler.io;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

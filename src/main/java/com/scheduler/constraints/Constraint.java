@@ -1,4 +1,4 @@
-package main.java.com.scheduler.constraints;
+package com.scheduler.constraints;
 
 import com.scheduler.domain.*;
 

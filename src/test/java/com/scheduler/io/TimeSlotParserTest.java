@@ -1,4 +1,4 @@
-package test.java.com.scheduler.io;
+package com.scheduler.io;
 
 import com.scheduler.domain.TimeSlot;
 import org.junit.jupiter.api.Test;

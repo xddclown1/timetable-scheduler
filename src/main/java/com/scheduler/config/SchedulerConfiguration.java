@@ -1,4 +1,4 @@
-package main.java.com.scheduler.config;
+package com.scheduler.config;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

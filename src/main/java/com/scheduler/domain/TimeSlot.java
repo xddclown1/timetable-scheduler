@@ -1,4 +1,4 @@
-package main.java.com.scheduler.domain;
+package com.scheduler.domain;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;

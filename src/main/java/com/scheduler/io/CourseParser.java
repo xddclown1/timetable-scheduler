@@ -1,4 +1,4 @@
-package main.java.com.scheduler.io;
+package com.scheduler.io;
 
 import com.scheduler.domain.Course;
 import com.scheduler.domain.TimeSlot;

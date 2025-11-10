@@ -1,4 +1,4 @@
-package test.java.com.scheduler.domain;
+package com.scheduler.domain;
 
 import org.junit.jupiter.api.Test;
 
